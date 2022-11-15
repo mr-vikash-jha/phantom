@@ -1,11 +1,18 @@
 .button {
-  padding: 10px;
-  background-color: aqua;
   display: flex;
   justify-content: center;
-  align-items: center;
   color: white;
+  border-radius: 6px;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+.button:hover {
+  transform: scale(0.97);
 }
 .button_box {
-  width: 90%;
+  width: 100%;
 }
