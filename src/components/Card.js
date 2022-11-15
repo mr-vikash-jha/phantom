@@ -2,10 +2,10 @@ import React from "react";
 import "./Card.css";
 import logo from "../images/logo.png";
 
-const Card = () => {
+const Card = (props) => {
   return (
     <div className="card-main">
-      <div className="info-container">
+      {/* <div className="info-container">
         <div className="card-center">
           <img src={logo} alt="Logo" width={120} />
         </div>
@@ -18,7 +18,8 @@ const Card = () => {
           </text>
         </div>
       </div>
-      <div className="button-container"></div>
+      <div className="button-container"></div> */}
+      {props.children}
     </div>
   );
 };
