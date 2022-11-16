@@ -17,8 +17,8 @@ const Card = (props) => {
             A crypto wallet reimagined for DeFi & NFTs
           </text>
         </div>
-      </div>
-      <div className="button-container"></div> */}
+      </div> */}
+      {/* <div className="button-container"></div> */}
       {props.children}
     </div>
   );

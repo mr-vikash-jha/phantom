@@ -1,0 +1,28 @@
+.input-container {
+  display: flex;
+
+  border-radius: 5px;
+  border: 2px solid;
+  padding: 8px 15px;
+  background: #181818;
+  border-color: #2e2e2e;
+  color: #ccc;
+  box-shadow: none !important;
+  font-size: 18px;
+  width: 85px;
+  margin: 10px;
+}
+
+.input-container input {
+  background: #181818;
+  border: none;
+  outline: none;
+  color: #ccc;
+  font-size: 18px;
+  width: 100%;
+}
+
+.input-number {
+  color: gray;
+  margin-right: 7px;
+}

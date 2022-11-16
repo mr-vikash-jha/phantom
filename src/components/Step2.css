@@ -1,0 +1,30 @@
+.step2-name {
+}
+
+.step2-name-div {
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.step2-desc-div {
+  font-size: 22px;
+  font-weight: 400;
+  color: gray;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 40px;
+}
+
+.phone-input {
+  margin-bottom: 20px;
+}
+
+.step2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
